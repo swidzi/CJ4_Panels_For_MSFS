@@ -1,0 +1,16 @@
+[Events]
+0=MobiFlight.Generic_Upr_Push_NAV
+1=MobiFlight.Generic_Upr_Push_PFD_MENU
+2=MobiFlight.Generic_Upr_RANGE_INC
+3=MobiFlight.Generic_Upr_RANGE_DEC
+4=MobiFlight.Generic_Upr_MENU_ADV_DEC
+5=MobiFlight.Generic_Upr_MENU_ADV_INC
+6=MobiFlight.Generic_Upr_Data_DEC
+7=MobiFlight.Generic_Upr_Data_INC
+8=MobiFlight.Generic_Upr_Data_PUSH
+9=MobiFlight.Generic_Upr_Push_ESC
+10=MobiFlight.Generic_Upr_Push_ET
+11=MobiFlight.Generic_Upr_Push_FRMT
+12=MobiFlight.Generic_Upr_Push_TERR_WX
+13=MobiFlight.Generic_Upr_Push_TFC
+14=MobiFlight.Generic_Upr_Push_REFS_MENU
