@@ -115,14 +115,14 @@ void BUTTONS() {
   Serial.println("MCP-->");
   for (int i = 0; i < 11 ; i++) //iterate via all pin ports
   {
-    NewValues[i] = mcp.digitalRead(i);
-    if (NewValues[i] != OldValues[i]) {
-      OldValues[i] = NewValues[i];
+    NewValues[i] = mcp.digitalRead(i); //Read the pin
+    if (NewValues[i] != OldValues[i]) { // On change of pin
+      OldValues[i] = NewValues[i]; // Update pin list
       if (NewValues[i] == 1) {
-        Joy.releaseButton(i);
+        Joy.releaseButton(i); //on change to high, release button
       }
       if (NewValues[i] == 0) {
-        Joy.pressButton(i);
+        Joy.pressButton(i); //on change to low press button
       }
 
     }
