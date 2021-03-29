@@ -10,7 +10,12 @@ Those consist of:
 * Arduino firmware
 * FSUIPC Configuration
 
-Those additionally use certain components from FlightSimMaker excelent G1000 project - namely push button switches and Dual Concentric Rotary Encoders.
+Those additionally use certain components from [FlightSimMaker](https://www.thingiverse.com/flightsimmaker/designs) excelent G1000 project - namely [push button switches](https://www.thingiverse.com/thing:4019943) and [Dual Concentric Rotary Encoders](https://www.thingiverse.com/thing:4373531).
+
+## Folder layout
+
+Each panel and component has its own folder. Inside that folder you will find relevant files sorted by type - Eagle, STL etc.
+If a certain component requires extra information it will have its own README.MD file.
 
 ## Available Panels:
 
@@ -107,5 +112,9 @@ If you find a bug or have a question, feel free to message me on github or to op
 
 Many thanks to wonderful people at FlightSimMaker group discord server as well as to all authors who have provided libraries and freeware software available for flightsimmers worldwide
 
-## License
+## Questions / Contact
+
+Just drop me an email at swidzi@gmail.com
+
+### License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
